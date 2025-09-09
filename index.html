@@ -1,1 +1,301 @@
-<html><body>hello</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amarjit Patel — Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Amarjit Patel — Tech enthusiast, MERN stack developer, proficient in C++ and JavaScript." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: light dark; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .glass { backdrop-filter: blur(8px); background: color-mix(in oklab, white 70%, transparent); }
+    @media (prefers-color-scheme: dark) {
+      .glass { background: color-mix(in oklab, rgba(17,24,39,.7) 80%, transparent); }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-950 text-slate-900 dark:text-slate-100">
+  <!-- ====== NAVBAR ====== -->
+  <header class="sticky top-0 z-50 border-b border-slate-200/60 dark:border-slate-700/50 bg-white/70 dark:bg-slate-900/60 glass">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-extrabold text-lg tracking-tight">Amarjit<span class="text-indigo-600">Patel</span></a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#projects" class="hover:text-indigo-600">Projects</a>
+        <a href="#skills" class="hover:text-indigo-600">Skills</a>
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="https://github.com/AmarjitPatel" target="_blank" class="px-3 py-2 rounded-xl border border-slate-300/60 dark:border-slate-700 hover:border-indigo-500 hover:text-indigo-600 transition">GitHub</a>
+        <a href="#projects" class="px-3 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-500 transition">View Work</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="absolute -top-24 -right-24 w-80 h-80 rounded-full bg-indigo-500/20 blur-3xl"></div>
+    <div class="absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-fuchsia-500/20 blur-3xl"></div>
+
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="text-sm uppercase tracking-wider text-slate-500 dark:text-slate-400">Developer Portfolio</p>
+        <h1 class="mt-2 text-4xl md:text-5xl font-extrabold leading-tight">
+          Amarjit Patel
+        </h1>
+        <p class="mt-4 text-lg md:text-xl text-slate-700 dark:text-slate-300">
+          Tech enthusiast • Transforming ideas into interactive web magic • Proficient in C++ & JavaScript • MERN Stack Developer • Absolute learner
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://github.com/AmarjitPatel" target="_blank" class="px-4 py-2 rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 hover:opacity-90">Follow on GitHub</a>
+          <a href="#contact" class="px-4 py-2 rounded-xl border border-slate-300/70 dark:border-slate-700 hover:border-indigo-500">Get in touch</a>
+        </div>
+        <div class="mt-6 flex items-center gap-3 text-sm text-slate-600 dark:text-slate-400">
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">Punjab, India</span>
+          <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">Open to opportunities</span>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-square rounded-3xl shadow-2xl border border-slate-200 dark:border-slate-800 bg-gradient-to-br from-indigo-600/20 to-fuchsia-600/20 flex items-center justify-center">
+          <div class="text-center p-6">
+            <div class="text-8xl">{ }</div>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Clean code • Fast UI • Solid DevOps basics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== HIGHLIGHTS ====== -->
+  <section class="py-12 md:py-16 bg-gradient-to-b from-white to-slate-50 dark:from-slate-950 dark:to-slate-900">
+    <div class="max-w-6xl mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/40">
+        <h3 class="font-semibold">Frontend</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">React, Tailwind CSS, modern UI/UX</p>
+      </div>
+      <div class="p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/40">
+        <h3 class="font-semibold">Backend</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Node.js, Express, REST APIs</p>
+      </div>
+      <div class="p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/40">
+        <h3 class="font-semibold">Databases</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">MongoDB, Mongoose</p>
+      </div>
+      <div class="p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/40">
+        <h3 class="font-semibold">DevOps</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Git & GitHub workflows, CI/CD basics</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PROJECTS ====== -->
+  <section id="projects" class="py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Featured Projects</h2>
+        <a href="https://github.com/AmarjitPatel?tab=repositories" target="_blank" class="text-sm hover:text-indigo-600">View all repositories →</a>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- DevOps Git Project -->
+        <article class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40 hover:border-indigo-500 transition">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-semibold text-lg">DevOps Git Project</h3>
+            <span class="text-xs px-2 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">HTML</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Exercises and notes exploring Git/GitHub workflows for DevOps fundamentals.</p>
+          <div class="mt-4 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">Git</span>
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">GitHub</span>
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">Version Control</span>
+          </div>
+          <a href="https://github.com/AmarjitPatel/devops-git-project" target="_blank" class="mt-4 inline-flex items-center gap-2 text-sm text-indigo-600">Open repo →</a>
+        </article>
+
+        <!-- Portfolio-Website -->
+        <article class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40 hover:border-indigo-500 transition">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-semibold text-lg">Portfolio-Website</h3>
+            <span class="text-xs px-2 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">JavaScript</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">A personal portfolio built with modern frontend practices.</p>
+          <div class="mt-4 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">React</span>
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">Tailwind</span>
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">UI/UX</span>
+          </div>
+          <a href="https://github.com/AmarjitPatel/Portfolio-Website" target="_blank" class="mt-4 inline-flex items-center gap-2 text-sm text-indigo-600">Open repo →</a>
+        </article>
+
+        <!-- E-Commerce -->
+        <article class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40 hover:border-indigo-500 transition">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-semibold text-lg">E-Commerce</h3>
+            <span class="text-xs px-2 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">—</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Exploring shopping flows, cart management, and product listings.</p>
+          <div class="mt-4 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">MERN</span>
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">REST</span>
+          </div>
+          <a href="https://github.com/AmarjitPatel/E-Commerce" target="_blank" class="mt-4 inline-flex items-center gap-2 text-sm text-indigo-600">Open repo →</a>
+        </article>
+
+        <!-- E-Commerce-website -->
+        <article class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40 hover:border-indigo-500 transition">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-semibold text-lg">E-Commerce-website</h3>
+            <span class="text-xs px-2 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">HTML</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Static e‑commerce pages focusing on layout and responsiveness.</p>
+          <div class="mt-4 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">HTML</span>
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">CSS</span>
+          </div>
+          <a href="https://github.com/AmarjitPatel/E-Commerce-website" target="_blank" class="mt-4 inline-flex items-center gap-2 text-sm text-indigo-600">Open repo →</a>
+        </article>
+
+        <!-- social-app -->
+        <article class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40 hover:border-indigo-500 transition">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-semibold text-lg">social-app</h3>
+            <span class="text-xs px-2 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">—</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Foundations of a modern social feed and auth flow.</p>
+          <div class="mt-4 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">Node.js</span>
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">MongoDB</span>
+          </div>
+          <a href="https://github.com/AmarjitPatel/social-app" target="_blank" class="mt-4 inline-flex items-center gap-2 text-sm text-indigo-600">Open repo →</a>
+        </article>
+
+        <!-- Portfolio -->
+        <article class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40 hover:border-indigo-500 transition">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-semibold text-lg">Portfolio</h3>
+            <span class="text-xs px-2 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">JavaScript</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">An earlier iteration of the portfolio concept and components.</p>
+          <div class="mt-4 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">UI</span>
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">Refactoring</span>
+          </div>
+          <a href="https://github.com/AmarjitPatel/Portfolio" target="_blank" class="mt-4 inline-flex items-center gap-2 text-sm text-indigo-600">Open repo →</a>
+        </article>
+
+        <!-- Amarjit_Patel_Portfolio -->
+        <article class="group p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40 hover:border-indigo-500 transition">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-semibold text-lg">Amarjit_Patel_Portfolio</h3>
+            <span class="text-xs px-2 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">—</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Refined personal site content and sections.</p>
+          <div class="mt-4 flex flex-wrap gap-2 text-xs">
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">Content</span>
+            <span class="px-2 py-1 rounded-full bg-slate-100 dark:bg-slate-800/70">Polish</span>
+          </div>
+          <a href="https://github.com/AmarjitPatel/Amarjit_Patel_Portfolio" target="_blank" class="mt-4 inline-flex items-center gap-2 text-sm text-indigo-600">Open repo →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS ====== -->
+  <section id="skills" class="py-16 md:py-20 bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-950">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-8">Tech Stack</h2>
+      <div class="flex flex-wrap gap-3 text-sm">
+        <span class="px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">C++</span>
+        <span class="px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">JavaScript (ES6+)</span>
+        <span class="px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">React</span>
+        <span class="px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">Node.js</span>
+        <span class="px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">Express</span>
+        <span class="px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">MongoDB</span>
+        <span class="px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">Git & GitHub</span>
+        <span class="px-3 py-1 rounded-full border border-slate-300/60 dark:border-slate-700">Tailwind CSS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section id="about" class="py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold">About</h2>
+        <p class="mt-4 text-slate-700 dark:text-slate-300 leading-relaxed">
+          I'm a B.Tech CSE final-year student and an absolute learner who loves building clean, fast, and accessible web applications. My focus is on the MERN stack with strong foundations in C++ and JavaScript, supported by DevOps best practices like version control and CI/CD basics.
+        </p>
+        <p class="mt-4 text-slate-700 dark:text-slate-300 leading-relaxed">
+          I enjoy taking ideas from zero to one — iterating on UX, wiring up APIs, and deploying projects. If you're hiring or want to collaborate, let's talk!
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3 text-sm">
+          <a href="https://www.linkedin.com/in/amarjit-patel-454011255" target="_blank" class="px-4 py-2 rounded-xl border border-slate-300/70 dark:border-slate-700 hover:border-indigo-500">LinkedIn</a>
+          <a href="https://x.com/AmarS77966" target="_blank" class="px-4 py-2 rounded-xl border border-slate-300/70 dark:border-slate-700 hover:border-indigo-500">X (Twitter)</a>
+          <a href="https://www.instagram.com/official_patel_phg" target="_blank" class="px-4 py-2 rounded-xl border border-slate-300/70 dark:border-slate-700 hover:border-indigo-500">Instagram</a>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40">
+        <h3 class="font-semibold">What I’m focusing on</h3>
+        <ul class="list-disc list-inside mt-3 text-slate-700 dark:text-slate-300">
+          <li>Strengthening React patterns and performance</li>
+          <li>Building REST APIs with Node.js & Express</li>
+          <li>Deployments and CI/CD workflows</li>
+          <li>Sharpening problem-solving with C++</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT ====== -->
+  <section id="contact" class="py-16 md:py-20 bg-gradient-to-b from-white to-slate-50 dark:from-slate-950 dark:to-slate-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-extrabold">Contact</h2>
+      <p class="mt-3 text-slate-700 dark:text-slate-300">Want to collaborate or have an opportunity? Reach out anytime.</p>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40">
+          <label class="block text-sm">Name</label>
+          <input class="mt-1 w-full px-3 py-2 rounded-xl border border-slate-300/70 dark:border-slate-700 bg-transparent" name="name" required>
+
+          <label class="block text-sm mt-4">Email</label>
+          <input class="mt-1 w-full px-3 py-2 rounded-xl border border-slate-300/70 dark:border-slate-700 bg-transparent" type="email" name="email" required>
+
+          <label class="block text-sm mt-4">Message</label>
+          <textarea class="mt-1 w-full px-3 py-2 rounded-xl border border-slate-300/70 dark:border-slate-700 bg-transparent" name="message" rows="5" required></textarea>
+
+          <button class="mt-4 px-4 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-500">Send</button>
+        </form>
+
+        <div class="p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/40">
+          <h3 class="font-semibold">Direct links</h3>
+          <ul class="mt-3 space-y-2">
+            <li><a class="hover:text-indigo-600" href="mailto:youremail@example.com">youremail@example.com</a></li>
+            <li><a class="hover:text-indigo-600" href="https://github.com/AmarjitPatel" target="_blank">github.com/AmarjitPatel</a></li>
+            <li><a class="hover:text-indigo-600" href="https://linkedin.com/in/amarjit-patel-454011255" target="_blank">LinkedIn Profile</a></li>
+          </ul>
+          <p class="mt-4 text-xs text-slate-500 dark:text-slate-400">Replace the placeholders above with your real contact info.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="py-10 border-t border-slate-200/70 dark:border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-600 dark:text-slate-400">
+      <p>© <span id="year"></span> Amarjit Patel. Built with ❤️ and Tailwind.</p>
+      <div class="flex items-center gap-4">
+        <a class="hover:text-indigo-600" href="#home">Top</a>
+        <a class="hover:text-indigo-600" href="https://github.com/AmarjitPatel" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
